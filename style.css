@@ -5,16 +5,16 @@
 }
 
 .clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
 body {
     background-color: #e0ddd7;
 }
 
-header div { 
+header div {
     width: 14.285%;
     height: 7px;
     float: left;
@@ -47,6 +47,9 @@ header div:nth-child(6) {
 header div:nth-child(7) {
     background-color: #1abc9c;
 }
+.container {padding-right: 33px;
+    padding-left: 33px;
+font-family: 'Open Sans', sans-serif;}
 
 h1 {
     margin: 114px 0px 24px;
@@ -55,5 +58,13 @@ h1 {
     font-size: 69px;
     line-height: 54px;
     font-weight: 400;
-   text-align: center;
+    text-align: center;
+}
+
+p {
+    line-height: 31px;
+    margin: 0px 0px 63px;
+    font-size: 25px;
+    color: #74737a;
+    text-align: center;
 }
