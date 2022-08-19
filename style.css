@@ -9,7 +9,9 @@
   display: block;
   clear: both;
 }
-html {height: 100%;}
+html {
+  height: 100%;
+}
 
 body {
   background-color: #e0ddd7;
@@ -52,14 +54,14 @@ header div:nth-child(7) {
 }
 
 .container {
-  padding-right: 33px;
-  padding-left: 33px;
+  padding-right: 300px;
+  padding-left: 300px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
 h1 {
-  margin: 114px 0px 24px;
+  margin: 114px 0 24px;
   font-family: "Petit Formal Script", sans-serif;
   color: #2d3338;
   font-size: 69px;
@@ -69,7 +71,7 @@ h1 {
 
 p {
   line-height: 31px;
-  margin: 0px 0px 63px;
+  margin: 30px 30px 63px;
   font-size: 25px;
 }
 
@@ -99,13 +101,13 @@ button {
 }
 
 img {
-  padding-top: 50px;
-  padding-left: 70px;
+  padding-top: 60px;
+  /* padding-left: 0px; */
 }
 
 .social {
   position: relative;
-  margin-top: -168px;
+  margin-top: -220px;
   padding: 35px 0;
   background-color: #1abc9c;
   text-align: center;
@@ -119,22 +121,36 @@ h2 {
   color: white;
 }
 
+/* .social .clearfix {
+   overflow: hidden;} */
+
 .social p {
- margin-bottom: 30px;
+  margin-bottom: 30px;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.59);
 }
 
-.social div { display: inline-block;
-
-    width: 61px;
-    height: 33px;
-    background: white;
-    border: #758696 solid 1px;
-    border-radius: 3px;
+.social .window {
+  display: inline-block;
+  width: 61px;
+  height: 33px;
+  background: white;
+  border: #758696 solid 1px;
+  border-radius: 3px;
 }
 
+/* .social {
+float: left;
 
+} */
+
+
+.social div img {
+  /* z-index: 1; */
+  margin-top: -37px;
+  margin-left: -160px;
+  
+}
 
 
 
@@ -142,14 +158,28 @@ h2 {
 
 
 footer {
-    background-color: #3f474d;
-
+   width: 100%;
+   max-width: 1024px;
+  margin: 0 auto;
+  margin-top: -30px;
+  background-color: #3f474d;
 }
 footer p {
-padding: 23px 0;
+  padding: 23px 0;
+ margin: 0 auto;
+  /* line-height: 20px; */
 
-    /* line-height: 20px; */
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.52);
+}
 
-font-size: 14px;
-color: rgba(255, 255, 255, 0.52);
+.contact {
+  float: left;
+}
+
+.contact img {
+  display: inline-block;
+   /* margin: 0 auto; */
+  padding-top: 0;
+  padding-left: 15px;
 }
