@@ -9,6 +9,7 @@
   display: block;
   clear: both;
 }
+
 html {
   height: 100%;
 }
@@ -53,9 +54,32 @@ header div:nth-child(7) {
   background-color: #1abc9c;
 }
 
+
+
+
+@media (orientation: portrait) and (min-width: 390px) {
+
+  header div {
+padding-top: 12px;
+
+}
+
+
+}
+
+@media (orientation: landscape) and (min-width: 844px)
+{
+
+}
+
+
+
+
+
 .container {
-  padding-right: 300px;
-  padding-left: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
@@ -100,10 +124,28 @@ button {
   font-weight: 300;
 }
 
-img {
+.container img {
+  display: inline-block;
   padding-top: 60px;
-  /* padding-left: 0px; */
+  padding-left: 100px;
 }
+
+
+
+
+
+@media (orientation: portrait) and (min-width: 390px) {
+
+  
+
+}
+
+@media (orientation: landscape) and (min-width: 844px)
+{
+
+}
+
+
 
 .social {
   position: relative;
@@ -114,18 +156,15 @@ img {
 }
 
 h2 {
-  margin: 0 0 10px;
   font-size: 32px;
   line-height: 36px;
   font-weight: 400;
   color: white;
 }
 
-/* .social .clearfix {
-   overflow: hidden;} */
-
 .social p {
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 25px;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.59);
 }
@@ -139,47 +178,26 @@ h2 {
   border-radius: 3px;
 }
 
-/* .social {
-float: left;
-
-} */
-
-
 .social div img {
-  /* z-index: 1; */
-  margin-top: -37px;
-  margin-left: -160px;
-  
+  margin-top: -75px;
+  margin-left: -175px;
 }
-
-
-
-
-
 
 footer {
-   width: 100%;
-   max-width: 1024px;
-  margin: 0 auto;
-  margin-top: -30px;
   background-color: #3f474d;
-}
-footer p {
-  padding: 23px 0;
- margin: 0 auto;
-  /* line-height: 20px; */
-
-  font-size: 14px;
   color: rgba(255, 255, 255, 0.52);
 }
 
-.contact {
-  float: left;
+footer p {
+  position: absolute;
+  padding: 25px 500px 30px 70px;
+  margin: 0 auto;
+  font-size: 14px;
 }
 
-.contact img {
-  display: inline-block;
-   /* margin: 0 auto; */
+footer .contact img {
+  position: relative;
+  margin: 0 auto;
   padding-top: 0;
-  padding-left: 15px;
+  padding-left: 1450px;
 }
