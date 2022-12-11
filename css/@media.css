@@ -253,22 +253,26 @@ margin-left: 40px;
 
 @media (orientation: landscape) and (min-width: 1024px) {
     div.header {
-       max-width: 1024px;
-       margin-left: auto;
+    max-width: 1024px;
+    margin-left: auto;
     margin-right: auto;
     padding-left: 120px;
     padding-right: 120px;
   }
 
+  div.wrapper img {
+    padding-top: 70px;
+  }
+
   .social {
     margin-top: -307px;
-     padding-top: 65px;
+    padding-top: 65px;
     padding-bottom: 65px;
   }
 
    footer .grid {
-     max-width: 1024px;
-       margin-left: auto;
+    max-width: 1024px;
+    margin-left: auto;
     margin-right: auto;
   }
 }
