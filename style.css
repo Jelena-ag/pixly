@@ -54,13 +54,13 @@ div.container {
   background-color: var(--bg-color);
 }
 
-div.header {
+div.main {
   padding: 0 10px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
-div.header h1 {
+div.main h1 {
   margin: 47px 0 24px;
   line-height: 54px;
   font-size: 6.9rem;
@@ -69,13 +69,13 @@ div.header h1 {
   font-weight: 400;
 }
 
-div.header p {
+div.main p {
   margin: 0 0 44px;
   line-height: 26px;
   font-size: 2.2rem;
 }
 
-div.header input {
+div.main input {
   width: 100%;
   height: 54px;
   margin-bottom: 10px;
@@ -87,7 +87,7 @@ div.header input {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-div.header button {
+div.main button {
   width: 100%;
   height: 54px;
   padding: 4px 29px;
@@ -178,21 +178,21 @@ footer .grid {
 }
 
 @media (orientation: portrait) and (min-width: 540px) {
-  div.header {
+  div.main {
     padding: 0 33px;
   }
 
-  div.header p {
+  div.main p {
     margin: 0 0 63px;
     font-size: 2.5rem;
   }
 
-  div.header input {
+  div.main input {
     float: left;
     width: 60%;
   }
 
-  div.header button {
+  div.main button {
     width: 40%;
   }
 
@@ -238,22 +238,22 @@ footer .grid {
 }
 
 @media (orientation: portrait) and (min-width: 768px) {
-  div.header {
+  div.main {
     padding: 70px 90px 0;
   }
 
-  div.header p {
+  div.main p {
     margin-left: 85px;
     margin-right: 85px;
     line-height: 31px;
   }
 
-  div.header input {
+  div.main input {
     width: 70%;
     text-align: left;
   }
 
-  div.header button {
+  div.main button {
     width: 30%;
   }
 
@@ -278,12 +278,12 @@ footer .grid {
 }
 
 @media (orientation: portrait) and (min-width: 820px) {
-  div.header {
+  div.main {
     padding-left: 115px;
     padding-right: 115px;
   }
 
-  div.header p {
+  div.main p {
     margin-left: 90px;
     margin-right: 90px;
   }
@@ -306,12 +306,12 @@ footer .grid {
 }
 
 @media (orientation: portrait) and (min-width: 912px) {
-  div.header {
+  div.main {
     padding-left: 155px;
     padding-right: 155px;
   }
 
-  div.header button:hover {
+  div.main button:hover {
     cursor: pointer;
   }
 
@@ -329,23 +329,23 @@ footer .grid {
 }
 
 @media (orientation: landscape) {
-  div.header {
+  div.main {
     padding: 0 33px;
   }
 
-  div.header p {
+  div.main p {
     margin-bottom: 65px;
     font-size: 2.5rem;
     line-height: 31px;
   }
 
-  div.header input {
+  div.main input {
     float: left;
     width: 60%;
     text-align: left;
   }
 
-  div.header button {
+  div.main button {
     width: 40%;
   }
 
@@ -394,29 +394,29 @@ footer .grid {
 }
 
 @media (orientation: landscape) and (min-width: 844px) {
-  div.header {
+  div.main {
     padding-left: 120px;
     padding-right: 120px;
   }
 
-  div.header h1 {
+  div.main h1 {
     margin-top: 105px;
   }
 
-  div.header p {
+  div.main p {
     margin-left: 90px;
     margin-right: 90px;
   }
 
-  div.header input {
+  div.main input {
     width: 70%;
   }
 
-  div.header button {
+  div.main button {
     width: 30%;
   }
 
-  div.header button:hover {
+  div.main button:hover {
     cursor: pointer;
   }
 
@@ -439,7 +439,7 @@ footer .grid {
 }
 
 @media (orientation: landscape) and (min-width: 1024px) {
-  div.header {
+  div.main {
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
